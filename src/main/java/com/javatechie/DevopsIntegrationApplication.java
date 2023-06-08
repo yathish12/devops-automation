@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return <b "welcome to DevOps Hackathon" /b>;
+		return "welcome to DevOps Hackathon";
 	}
 
 	public static void main(String[] args) {
